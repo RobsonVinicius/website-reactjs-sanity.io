@@ -4,16 +4,18 @@ import About from "./components/About";
 import SinglePost from "./components/SinglePost";
 import Post from "./components/Post";
 import Project from "./components/Project";
+import Pagina404 from "./components/Pagina404";
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route component={Home} path='/' exact />
-        <Route component={About} path='/about' />
-        <Route component={SinglePost} path='/post/:slug' />
-        <Route component={Post} path='/post' />
-        <Route component={Project} path='/project' />        
+        <Route path="/" component={Home} exact />
+        <Route path="/about" component={About} />
+        <Route path="/post/:slug" component={SinglePost} />
+        <Route path="/post" component={Post} />
+        <Route path="/project" component={Project}  />        
+        <Route component={Pagina404} />        
       </Switch>
     </BrowserRouter>
   );
