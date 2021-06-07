@@ -18,6 +18,56 @@ Sanity.io| Sanity.io is the unified content platform that powers better digital 
 Em breve
 
 
-##
+## React Project
+
+
+Initialize
+```
+yarn start
+```
 
 <br>
+
+
+## Install Sanity
+
+```
+npm install -g @sanity/cli
+```
+or
+
+```
+yarn global add @sanity/cli
+```
+<br>
+
+## Initialize Sanity
+
+```
+sanity init
+```
+
+- Log in or create a new account (select your option)<br>
+? Login type GitHub <br>
+- login successful <br>
+? Project name (Insert your Project Name) <br>
+? Use the default dataset configuration? Yes     (Y/n) <br>
+✔ Creating dataset <br>
+? Project output path: (Choose your output path) example: users\Robson\Github\Project\Studio <br>
+? Select project template (Choose your project Type) example: Blog (Schema) <br>
+✔ Bootstrapping files from template <br>
+✔ Resolving latest module versions <br>
+✔ Creating default project files <br>
+
+✔ Saved lockfile
+
+Success! 
+
+<br>
+
+## Sanity options
+
++ [**sanity docs**](https://www.sanity.io/docs/sanity-studio) (to open the documentation in a browser)
++ **sanity manage** (to open the project settings in a browser)
++ **sanity help** (to explore the CLI manual)
++ **sanity start** (to run your project-name)
