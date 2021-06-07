@@ -9,7 +9,7 @@ Site em desenvolvimento utilizando as tecnologias React JS e Sanity.io
 Tecnologia | Descrição | Versão | Site
 ------------ | ------------- | ------------ | ------------
 React JS | Uma biblioteca JavaScript para criar interfaces de usuário | v16.13.0 | https://pt-br.reactjs.org/
-Sanity/CLI| Sanity CLI tool for managing Sanity installations, managing plugins, schemas and datasets | v2.10.5 | https://www.sanity.io/
+Sanity/CLI| Sanity CLI tool for managing Sanity installations, managing plugins, schemas and datasets | v2.10.5 | https://yarnpkg.com/package/@sanity/cli
 Sanity/Client | Client for retrieving data from Sanity | v2.10.5 | https://yarnpkg.com/package/@sanity/client
 
 <br>
