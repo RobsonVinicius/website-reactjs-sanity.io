@@ -5,10 +5,12 @@ import SinglePost from "./components/SinglePost";
 import Post from "./components/Post";
 import Project from "./components/Project";
 import Pagina404 from "./components/Pagina404";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <BrowserRouter>
+      <NavBar />
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/about" component={About} />
