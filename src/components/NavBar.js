@@ -21,15 +21,15 @@ export default function NavBar() {
             About Me!
           </NavLink>
         </nav>
-        <div className="inline-flex py-2 px-3 my-6">
-          <a href="https://linkedin.com/in/robson-vinicius" className="mr-5 p-3 rounded-full text-white bg-blue-700 hover:text-blue-700 hover:bg-white">
-            <FaLinkedinIn style={{ height: 25, width: 25}} />
+        <div className="inline-flex py-3 px-3 my-6">
+          <a href="https://linkedin.com/in/robson-vinicius" target="_blank" className="mr-5 p-3 rounded-full text-white bg-blue-700 hover:text-blue-700 hover:bg-white">
+            <FaLinkedinIn style={{ height: 20, width: 20}} />
           </a>
-          <a href="https://codepen.com/robsonvinicius" className="mr-5 p-3 rounded-full text-white bg-black hover:text-black hover:bg-white">
-            <FaCodepen style={{ height: 25, width: 25}} />
+          <a href="https://codepen.com/robsonvinicius" target="_blank" className="mr-5 p-3 rounded-full text-white bg-black hover:text-black hover:bg-white">
+            <FaCodepen style={{ height: 20, width: 20}} />
           </a>
-          <a href="https://twitter.com/robsonviniciusr" className="p-3 rounded-full text-white bg-blue-400 hover:text-blue-400 hover:bg-white">
-            <FaTwitter style={{ height: 25, width: 25}} />          
+          <a href="https://twitter.com/robsonviniciusr" target="_blank" className="p-3 rounded-full text-white bg-blue-400 hover:text-blue-400 hover:bg-white">
+            <FaTwitter style={{ height: 20, width: 20}} />          
           </a>
         </div>
       </div>
