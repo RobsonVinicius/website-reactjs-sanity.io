@@ -75,3 +75,4 @@ Success!
 + **sanity manage** (to open the project settings in a browser)
 + **sanity help** (to explore the CLI manual)
 + **sanity start** (to run your project-name)
++ **sanity deploy** (to deploy your data)
