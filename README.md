@@ -1,8 +1,12 @@
 # Website With React JS & Sanity.io
 
-Site em desenvolvimento utilizando as tecnologias React JS e Sanity.io
+Blog criado utilizando as tecnologias React JS e Sanity.io com o objetivo de adquirir conhecimento sobre a plataforma de conteúdo [Sanity](https://www.sanity.io/)
 
 <br>
+
+
+![Preview Project](src/images/preview.png)
+
 
 ## Tecnologias (em construção)
 
@@ -21,12 +25,23 @@ Sanity/block-content-to-react | Render an array of block text from Sanity with R
 ## Preview Demo
 
 https://website-reactjs-sanity-io.vercel.app/
+
 <br>
 
 ## React Project
 
+### Install dependencies
 
-Initialize
+```
+yarn install
+```
+or 
+```
+npm install
+```
+
+### Initialize
+
 ```
 yarn start
 ```
@@ -34,7 +49,9 @@ yarn start
 <br>
 
 
-## Install Sanity CLI
+## Sanity
+
+### Install Sanity CLI
 
 ```
 npm install -g @sanity/cli
@@ -44,9 +61,10 @@ or
 ```
 yarn global add @sanity/cli
 ```
+
 <br>
 
-## Initialize Sanity
+### Initialize Sanity
 
 ```
 sanity init
@@ -58,7 +76,7 @@ sanity init
 ? Project name (Insert your Project Name) <br>
 ? Use the default dataset configuration? Yes     (Y/n) <br>
 ✔ Creating dataset <br>
-? Project output path: (Choose your output path) example: users\Robson\Github\Project\Studio <br>
+? Project output path: (Choose your output path) example: users\Robson\Github\Project\Studio (escolha uma pasta para o projeto) <br>
 ? Select project template (Choose your project Type) example: Blog (Schema) <br>
 ✔ Bootstrapping files from template <br>
 ✔ Resolving latest module versions <br>
@@ -75,5 +93,5 @@ Success!
 + [**sanity docs**](https://www.sanity.io/docs/sanity-studio) (to open the documentation in a browser)
 + **sanity manage** (to open the project settings in a browser)
 + **sanity help** (to explore the CLI manual)
-+ **sanity start** (to run your project-name)
-+ **sanity deploy** (to deploy your data)
++ **sanity start** (to run your project-name) (entre dentro da pasta criada do projeto sanity)
++ **sanity deploy** (to deploy your data) 
