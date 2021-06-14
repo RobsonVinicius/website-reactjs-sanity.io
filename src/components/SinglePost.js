@@ -35,7 +35,13 @@ export default function SinglePost() {
       .catch(console.error)
   }, [slug]);
 
-  if (!singlePost) return <div>Loading...</div>;
+  if (!singlePost) return (
+    <div className="h-full h-screen">
+      <section className="flex flex-col align-center justify-center text-center">
+        <h2 className="text-gray-800 text-3xl mt-10 mb-6">Loading...</h2>
+      </section>
+    </div>
+  );
 
   return (
     <main className="bg-gray-200 min-h-screen p-12">
