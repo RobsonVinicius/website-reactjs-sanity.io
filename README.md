@@ -7,8 +7,9 @@ Blog criado utilizando as tecnologias React JS e Sanity.io com o objetivo de adq
 
 ![Preview Project](src/images/preview.png)
 
+<br>
 
-## Tecnologias (em construção)
+## Tecnologias
 
 Tecnologia | Descrição | Versão | Site
 ------------ | ------------- | ------------ | ------------
