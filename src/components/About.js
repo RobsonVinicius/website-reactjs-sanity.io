@@ -33,10 +33,10 @@ export default function About() {
   );
 
   return (
-    <main className="relative">
-      <img src={home} alt="home" className="absolute w-full" />
-      <div className="p-10 lg:pt-48 container mx-auto relative">
-        <section className="bg-indigo-800 rounded-lg shadow-2xl lg:flex p-20">
+    <main>
+      <img src={home} alt="home" className="absolute object-cover w-full h-full min-h-screen" />
+      <div className="relative min-h-screen flex justify-center items-center">
+        <section className="bg-indigo-800 rounded-lg shadow-2xl lg:flex lg:p-12">
           <img
             src={urlFor(author.authorImage).url()}
             className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8"

@@ -5,7 +5,7 @@ import "./NavBar.css";
 
 export default function NavBar() {
   return (
-    <header className="bg-indigo-600">
+    <header className="bg-indigo-600 fixed z-50 w-full">
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
           <NavLink to="/" exact className="inflex-flex items-center py-6 px-3 my-2 mr-6 text-gray-100 hover:text-gray-800 text-3xl font-bold tracking-widest" activeClassName="text-white">
